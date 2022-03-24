@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Sansita+Swashed:wght@300;400;700&display=swap');
+     
+
+
+
+                        /* Nav Bar */
+
+
+
+* {
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+                        /* Nav Bar */
+
+li , a , button {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase ;
+    font-size: 1.1em;
+    text-decoration: none;
+
+}
+
+header {
+
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+}
+
+#logo {
+
+    width: 90px;
+    height: 90x;
+}
+
+.nav-links {
+
+    transition: all 0.2s ease 0s;
+}
+
+.nav-links li {
+
+    display: inline-block;
+    padding: 0px 60px;
+}
+
+.nav-links li a {
+
+    transition: all 0.2s ease 0s;
+    color: rgb(156, 153, 149);
+}
+
+.nav-links li a:hover {
+
+    color: #fff;
+} 
+
+
+
+button:hover {
+
+    background-color:#e6ebec ;
+}
+
+@media screen and (max-width: 1080px) {
+
+    button {
+        display:none;
+
+    }
+    .nav-links li {
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 730px ) {
+
+    .nav-links {
+        display: none;
+    }
+
+    header {
+        display: block;
+        text-align: right;
+    }
+}
+
+
+            /* Main Page */
+
+html {
+    
+    background: linear-gradient(to bottom,#5e6875 ,#433940, #3b3b3b);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#logo { 
+    width: 150px;
+}
+
+div .favorite {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* text-decoration: underline; */
+    color: #fff;
+    font-size: 35px;
+}
+div .caption {
+    font-size: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+}
+
+/* Music section */
+
+
+#music1 a {
+    color: blanchedalmond;
+}
+#music1 a:visited {
+    color: rgb(7, 2, 12);
+}
+.music3 {
+
+    font-size: 45px;
+}
+#music1 {
+    
+    height: auto;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    justify-content: space-between;
+
+}
+
+.music  {
+
+    
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+    
+}
+#musictime {
+
+    height: 200px;
+
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#musictime2 {
+    
+    font-size:  30px;
+    text-align: center;
+    color: burlywood;
+}
+#musictime span a{
+    font-size: 35px;
+    text-transform: lowercase;
+}
+
+#music1 div {
+
+    margin: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* Games section */
+.games  {
+    
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+ #games1  {
+    
+font-size: 45px;
+}
+
+#gamepage {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+#play {
+    text-align: center;
+    padding-left: 5%;
+    font-size: 30px;
+}
+#play1 {
+    color: burlywood;
+    text-align: center;
+    padding-left: 5%;
+    font-size: 25px;
+}
+
+.games2 {
+    text-align: center;
+    /* height: auto; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.games2 img {
+    max-width: 200px ;
+    max-height: 300px;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 50px;
+
+}
+   
