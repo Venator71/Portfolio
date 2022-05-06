@@ -122,6 +122,23 @@ font-family: 'Sansita Swashed', cursive;
 			transition: none !important;
 		}
 
+		/* Code buttons */
+
+		.work1 .code_button {
+			margin: 5px;
+			margin-left: 30px;
+				
+		
+		}
+		
+
+		.work1 {
+			display: flex;
+			flex-direction: column;
+			
+			
+		}
+
 /* Type */
 
 	html {
@@ -1671,4 +1688,8 @@ font-family: 'Sansita Swashed', cursive;
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+		.resume_list {
+			list-style:disc ;
 		}
