@@ -1693,3 +1693,27 @@ font-family: 'Sansita Swashed', cursive;
 		.resume_list {
 			list-style:disc ;
 		}
+
+		.resume-download {
+			
+			background-color: #6e6e6e;
+
+		}
+
+		.projects-container {
+			/* border: 1px solid red; */
+			display: flex;
+			flex-direction: column;
+			align-content: space-between;
+		}
+
+		.work_btn {
+			/* border: 1px solid red; */
+			display: flex;
+			
+			justify-content: space-between;
+		}
+.headshot	{
+	max-width: 300px;
+	max-height: 500px;
+}
